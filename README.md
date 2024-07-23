@@ -2,7 +2,7 @@
 
 Desafio de criptografar de descryptografar da Alura One. O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface interativa onde os usuários podem inserir texto, criptografá-lo, descriptografá-lo e copiá-lo para a área de transferência. O projeto  implementa a cifra de César para criptografar e descriptografar textos. 
 
-##Tecnologias utilizadas:
+## Tecnologias utilizadas:
 
 <img  loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40" height="40"/><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40" height="40" /><img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40"/>
 
