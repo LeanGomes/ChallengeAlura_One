@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --font-principal: "inter", sans-serif;
+  --cor-principal: rgba(243, 245, 252, 1);
+  --cor-secundaria: rgba(10, 56, 113, 1);
+  --cor-terciaria: rgba(216, 223, 232, 1);
+  --cor-textCrip: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-principal);
+  font-family: var(--font-principal);
+}
+.cabecalho {
+  width: 15%;
+  justify-content: center;
+  float: left;
+}
+
+#imgLogo {
+  margin: 30px 40px;
+}
+
+.principal {
+  display: flex;
+  gap: 8px;
+  border: transparent;
+}
+.principal__section {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 10px;
+  width: 60%;
+  height: 500px;
+  gap: 8px;
+}
+.principal__area {
+  width: 100%;
+  height: 400px;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  resize: none;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: var(--cor-principal);
+}
+span {
+  font-size: 0.6rem;
+  display: flex;
+  gap: 5px;
+}
+span p {
+  padding-top: 3px;
+}
+
+.bnt {
+  display: flex;
+  gap: 8px;
+}
+button {
+  width: 50%;
+  height: 60px;
+  border: solid 2px var(--cor-secundaria);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#bnt__crip {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-terciaria);
+}
+#bnt__desc {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-secundaria);
+}
+.principal__sectionDois {
+  display: flex;
+  flex-direction: column;
+  margin: 56px 10px;
+  width: 35%;
+  height: 542px;
+  gap: 8px;
+  background-color: var(--cor-textCrip);
+  border-radius: 20px;
+  border: transparent;
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.08);
+}
+.img__sectionDois {
+  width: 65%;
+  margin: 70px 70px 10px 70px;
+}
+.texto__sectionDois {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.paragrafo__sectionDois {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 0 40px;
+}
+.input__criptografado {
+  display: none;
+  height: 1000px;
+  resize: none;
+  overflow: auto;
+  font-family: var(--font-principal);
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 20px;
+  border: transparent;
+}
+#bnt__copiar {
+  display: none;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-secundaria);
+  height: 100px;
+  margin: 7px 10px;
+  padding: 10px;
+  width: 95%;
+  box-sizing: border-box;
+}
+.rodape {
+  text-align: center;
+  height: auto;
+  margin: 10px;
+}

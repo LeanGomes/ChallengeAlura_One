@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Decodificador</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img id="imgLogo" src="assets/logoAlura.png" alt="" />
+    </header>
+
+    <main class="principal">
+      <section class="principal__section">
+        <textarea
+          type="text"
+          class="principal__area"
+          id="texto__area"
+          placeholder="Digite seu texto aqui!"
+        >
+        </textarea>
+
+        <span id="spanAtencao">
+          <img src="assets/frame1.png" alt="" />
+          <p>Apenas letras minusculas e sem acentos!</p></span
+        >
+        <div class="bnt">
+          <button id="bnt__crip" onclick="criptografar()">Criptografar</button>
+          <button id="bnt__desc" onclick="descriptografar()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+      <section class="principal__sectionDois">
+        <div id="esconderTag">
+          <img
+            class="img__sectionDois"
+            src="assets/High quality products 1 1.png"
+          />
+          <h2 class="texto__sectionDois">Nenhuma mensagem encontrada.</h2>
+          <p class="paragrafo__sectionDois">
+            Digite um texto que você queira criptografar ou descriptografar.
+          </p>
+        </div>
+        <textarea
+          class="input__criptografado"
+          id="texto__areaDois"
+          readonly
+        ></textarea>
+        <button id="bnt__copiar" onclick="copiarTexto()">Copiar</button>
+      </section>
+    </main>
+
+    <footer class="rodape">Leandro Gomes - Alura One</footer>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
