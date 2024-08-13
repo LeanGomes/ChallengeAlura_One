@@ -2,6 +2,7 @@
 function criptografar() {
   // Obtém o valor do campo de entrada de texto
   let textoNormal = document.getElementById("texto__area").value;
+  console.log(textoNormal);
   // Obtém o botão de copiar
   let bntCopiar = document.getElementById("bnt__copiar");
   // Obtém a área de texto onde o texto criptografado será exibido
@@ -18,7 +19,7 @@ function criptografar() {
   let textoCriptografado = "";
 
   // Define uma expressão regular para verificar se o texto contém apenas letras minúsculas
-  let regex = /^[a-z]+$/;
+  let regex = /^[a-z\s]+$/;
 
   // Verifica se o texto contém caracteres não permitidos
   if (!regex.test(textoNormal)) {
@@ -59,6 +60,9 @@ function criptografar() {
 
   // Atualiza a área de texto com o texto criptografado
   document.getElementById("texto__areaDois").value = textoCriptografado;
+  // Atualiza a área de texto
+  document.getElementById("texto__area").value = "";
+  console.log(textoCriptografado);
 }
 
 // Função para copiar o texto criptografado para a área de transferência
@@ -90,7 +94,7 @@ function descriptografar() {
       // Obtém o código ASCII do caractere
       let charCode = char.charCodeAt(0);
       // Aplica a cifra de César para descriptografar o caractere
-      char = String.fromCharCode(((charCode - 97 + crypt) % 26) + 97);
+      char = String.fromCharCode(((charCode - 97 + crypt + 26) % 26) + 97);
     }
     // Adiciona o caractere descriptografado ao resultado
     textoDescriptografado += char;
