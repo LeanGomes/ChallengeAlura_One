@@ -1,6 +1,6 @@
 # Challenge Alura One ![logoAlura](https://github.com/user-attachments/assets/fad5494d-9102-46f4-8fb1-00a26c20f626)
 
-Desafio de criptografar de descryptografar da Alura One. O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface interativa onde os usuários podem inserir texto, criptografá-lo, descriptografá-lo e copiá-lo para a área de transferência. 
+Desafio de criptografia da Alura One. O projeto utiliza HTML, CSS e JavaScript para fornecer uma interface interativa onde os usuários podem inserir texto, criptografá-lo, descriptografá-lo e copiá-lo para a área de transferência. 
 
 ## Tecnologias utilizadas:
 
